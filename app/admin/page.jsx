@@ -425,14 +425,26 @@ export default function AdminPage() {
                       <p className="text-lg font-extrabold tabular-nums">{fmt(o.total)}</p>
                     </div>
 
-                    <ul className="mt-3 border-t border-line pt-3 text-xs text-smoke">
-                      {o.items.map((i, x) => (
-                        <li key={x} className="flex justify-between py-0.5">
-                          <span>{i.name} {i.colorway} · {i.size} × {i.qty}</span>
-                          <span className="tabular-nums">{fmt(i.price * i.qty)}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <div className="mt-3 flex gap-4 border-t border-line pt-3">
+                      <ul className="flex-1 text-xs text-smoke">
+                        {o.items.map((i, x) => (
+                          <li key={x} className="flex justify-between py-0.5">
+                            <span>{i.name} {i.colorway} · {i.size} × {i.qty}</span>
+                            <span className="tabular-nums">{fmt(i.price * i.qty)}</span>
+                          </li>
+                        ))}
+                      </ul>
+                      {o.receipt ? (
+                        <a href={imgSrc(o.receipt)} target="_blank" rel="noreferrer" className="shrink-0" title="Открыть чек">
+                          <img src={imgSrc(o.receipt)} alt="Чек" className="h-24 w-20 border border-line bg-bone-2 object-cover transition-opacity hover:opacity-80" />
+                          <span className="mt-1 block text-center text-[9px] uppercase tracking-[0.2em] text-smoke">чек ↗</span>
+                        </a>
+                      ) : (
+                        <div className="flex h-24 w-20 shrink-0 items-center justify-center border border-dashed border-line text-center text-[9px] leading-tight text-smoke">
+                          чека<br />нет
+                        </div>
+                      )}
+                    </div>
 
                     {o.status === 'new' && (
                       <div className="mt-4 flex gap-3">

@@ -16,6 +16,21 @@ export default function CartDrawer() {
   const [err, setErr] = useState('');
   const [busy, setBusy] = useState(false);
   const [orderId, setOrderId] = useState(null);
+  const [receipt, setReceipt] = useState(''); // data URL
+
+  const pickReceipt = (file) => {
+    if (!file) return;
+    if (file.size > 6 * 1024 * 1024) {
+      setErr(t('cart.tooBig'));
+      return;
+    }
+    const reader = new FileReader();
+    reader.onload = () => {
+      setReceipt(String(reader.result || ''));
+      setErr('');
+    };
+    reader.readAsDataURL(file);
+  };
 
   useEffect(() => {
     if (open) window.__lenis?.stop();
@@ -34,6 +49,7 @@ export default function CartDrawer() {
       setStep('cart');
       setForm({ name: '', phone: '', address: '', comment: '' });
       setOrderId(null);
+      setReceipt('');
     }
     setErr('');
   };
@@ -47,6 +63,7 @@ export default function CartDrawer() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           ...form,
+          receipt,
           items: items.map((i) => ({
             id: i.p.id,
             name: i.p.name,
@@ -213,6 +230,24 @@ export default function CartDrawer() {
             <img src={settings.qrImage} alt="QR для оплаты" className="mx-auto mt-4 w-full max-w-[280px] border border-line" />
             <p className="mt-3 text-center text-[11px] uppercase tracking-[0.2em] text-smoke">{settings.payHint}</p>
             <p className="mt-4 text-center text-xs leading-relaxed text-smoke">{t('cart.payHint')}</p>
+
+            {/* чек */}
+            <div className="mt-5 border border-line p-3">
+              <p className="text-[10px] uppercase tracking-[0.2em] text-smoke">{t('cart.receipt')}</p>
+              {receipt && (
+                <img src={receipt} alt="" className="mt-3 max-h-56 w-full border border-line object-contain" />
+              )}
+              <label className="mt-3 block cursor-pointer border border-ink px-4 py-3 text-center text-[10px] font-semibold uppercase tracking-[0.2em] transition-colors hover:bg-ink hover:text-bone">
+                {receipt ? t('cart.change') : t('cart.attach')}
+                <input
+                  type="file"
+                  accept="image/*"
+                  className="hidden"
+                  onChange={(e) => pickReceipt(e.target.files?.[0])}
+                />
+              </label>
+              <p className="mt-2 text-center text-[11px] leading-relaxed text-smoke">{t('cart.receiptHint')}</p>
+            </div>
             {err && (
               <p className="mt-3 text-center text-xs text-ember" role="alert">
                 {err}{' '}
