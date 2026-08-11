@@ -1,0 +1,78 @@
+[
+  {
+    "id": "001",
+    "name": "SCRIPT TEE",
+    "colorway": "Black",
+    "type": "Oversized tee",
+    "desc": "Signature Legend script across the back, small mark on the chest. Heavyweight black.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": ["S", "M", "L", "XL"],
+    "price": "2 900 сом",
+    "priceNum": 2900,
+    "status": "In stock",
+    "stock": 10,
+    "images": [
+      "/mockup-black-hanger-back.jpg",
+      "/product-script-black-front.jpg",
+      "/product-script-black-back.jpg"
+    ],
+    "alt": "Black Legend Script oversized T-shirt"
+  },
+  {
+    "id": "002",
+    "name": "SCRIPT TEE",
+    "colorway": "White",
+    "type": "Oversized tee",
+    "desc": "The same signature script on clean white. The everyday statement piece.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": ["S", "M", "L", "XL"],
+    "price": "2 900 сом",
+    "priceNum": 2900,
+    "status": "In stock",
+    "stock": 10,
+    "images": [
+      "/mockup-white-hanger-back.jpg",
+      "/product-script-white-front.jpg",
+      "/product-script-white-back.jpg"
+    ],
+    "alt": "White Legend Script oversized T-shirt"
+  },
+  {
+    "id": "003",
+    "name": "BLOOM TEE",
+    "colorway": "White",
+    "type": "Oversized tee",
+    "desc": "Cherry-blossom artwork with the script mark. Since day one — earn your legacy.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": ["S", "M", "L", "XL"],
+    "price": "3 200 сом",
+    "priceNum": 3200,
+    "status": "Low stock",
+    "stock": 5,
+    "images": [
+      "/mockup-bloom-hanger-back.jpg",
+      "/product-bloom-front.jpg",
+      "/product-bloom-back.jpg"
+    ],
+    "alt": "White Bloom T-shirt with cherry blossom back print"
+  },
+  {
+    "id": "004",
+    "name": "NO LIMITS TEE",
+    "colorway": "Black",
+    "type": "Graphic tee",
+    "desc": "Bold LEGEND type over a city print. No limits since day one.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": ["S", "M", "L", "XL"],
+    "price": "3 400 сом",
+    "priceNum": 3400,
+    "status": "Last pieces",
+    "stock": 3,
+    "images": [
+      "/mockup-nolimits-front.jpg",
+      "/product-nolimits-front.jpg",
+      "/product-nolimits-alt.jpg"
+    ],
+    "alt": "Black No Limits graphic T-shirt with city print"
+  }
+]
