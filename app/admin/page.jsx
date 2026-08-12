@@ -188,6 +188,11 @@ export default function AdminPage() {
   }
 
   async function uploadImage(pi, ii, file) {
+    if (!connected) {
+      setMsg('Сначала подключите GitHub-токен вверху страницы ↑');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
     setBusy(true); setMsg('Загружаю фото…');
     try {
       await uploadFile(file, (path) => setImg(pi, ii, path));
@@ -197,6 +202,11 @@ export default function AdminPage() {
   }
 
   async function uploadQR(file) {
+    if (!connected) {
+      setMsg('Сначала подключите GitHub-токен вверху страницы ↑');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
     setBusy(true); setMsg('Загружаю QR…');
     try {
       await uploadFile(file, async (path) => {
@@ -472,7 +482,7 @@ export default function AdminPage() {
             <img src={imgSrc(settings.qrImage)} alt="QR" className="w-full max-w-[260px] border border-line" />
             <label className="mt-4 block cursor-pointer border border-ink px-5 py-3 text-center text-[10px] font-semibold uppercase tracking-[0.2em] transition-colors hover:bg-ink hover:text-bone">
               Загрузить новый QR
-              <input type="file" accept="image/*" className="hidden" disabled={!connected || busy}
+              <input type="file" accept="image/*" className="hidden" disabled={busy}
                 onChange={(e) => e.target.files[0] && uploadQR(e.target.files[0])} />
             </label>
             <label className={`${label} mt-6`}>Подпись под QR (банки)</label>
@@ -519,6 +529,14 @@ export default function AdminPage() {
                       </div>
 
                       <p className={label}>Фото (1-е — главное, 2-е — при наведении)</p>
+                      {!connected && (
+                        <button
+                          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                          className="mb-3 block w-full border border-ember/60 bg-ember/5 px-3 py-2 text-left text-[11px] text-ember"
+                        >
+                          ⚠ Токен не подключён — фото не загрузятся. Подключите его вверху страницы ↑
+                        </button>
+                      )}
                       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                         {p.images.map((img, ii) => (
                           <div key={ii} className="border border-line p-2">
@@ -527,7 +545,7 @@ export default function AdminPage() {
                               : (
                                 <label className="mb-2 flex aspect-[3/4] w-full cursor-pointer items-center justify-center bg-bone-2 text-center text-[10px] leading-relaxed text-smoke hover:text-ink">
                                   нажмите,<br />чтобы выбрать
-                                  <input type="file" accept="image/*" className="hidden" disabled={!connected || busy}
+                                  <input type="file" accept="image/*" className="hidden" disabled={busy}
                                     onChange={(e) => e.target.files[0] && uploadImage(i, ii, e.target.files[0])} />
                                 </label>
                               )}
@@ -539,7 +557,7 @@ export default function AdminPage() {
                                 {img && (
                                   <label className="cursor-pointer border border-line px-1.5 py-0.5 text-[10px] hover:border-ink" title="Заменить">
                                     ⟳
-                                    <input type="file" accept="image/*" className="hidden" disabled={!connected || busy}
+                                    <input type="file" accept="image/*" className="hidden" disabled={busy}
                                       onChange={(e) => e.target.files[0] && uploadImage(i, ii, e.target.files[0])} />
                                   </label>
                                 )}
@@ -549,8 +567,9 @@ export default function AdminPage() {
                           </div>
                         ))}
                         <button onClick={() => addImg(i)}
-                          className="flex aspect-[3/4] items-center justify-center border border-dashed border-smoke text-3xl text-smoke transition-colors hover:border-ink hover:text-ink">
-                          +
+                          className="flex aspect-[3/4] flex-col items-center justify-center gap-1.5 border border-dashed border-smoke text-smoke transition-colors hover:border-ink hover:text-ink">
+                          <span className="text-3xl leading-none">+</span>
+                          <span className="text-[9px] uppercase tracking-[0.15em]">Добавить фото</span>
                         </button>
                       </div>
 
