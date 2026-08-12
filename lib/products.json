@@ -3,7 +3,7 @@
     "id": "001",
     "name": "SCRIPT TEE",
     "colorway": "Black",
-    "type": "Oversized tee",
+    "type": "Classic tee",
     "desc": "Signature Legend script across the back, small mark on the chest. Heavyweight black.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
@@ -12,8 +12,8 @@
       "L",
       "XL"
     ],
-    "price": "2 900 сом",
-    "priceNum": 2900,
+    "price": "2 500 сом",
+    "priceNum": 2500,
     "status": "In stock",
     "stock": 10,
     "images": [
@@ -27,7 +27,7 @@
     "id": "002",
     "name": "SCRIPT TEE",
     "colorway": "White",
-    "type": "Oversized tee",
+    "type": "Classic tee",
     "desc": "The same signature script on clean white. The everyday statement piece.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
@@ -36,8 +36,8 @@
       "L",
       "XL"
     ],
-    "price": "2 900 сом",
-    "priceNum": 2900,
+    "price": "2 500 сом",
+    "priceNum": 2500,
     "status": "In stock",
     "stock": 10,
     "images": [
