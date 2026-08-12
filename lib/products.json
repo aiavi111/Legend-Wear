@@ -6,7 +6,12 @@
     "type": "Oversized tee",
     "desc": "Signature Legend script across the back, small mark on the chest. Heavyweight black.",
     "fabric": "Premium cotton · 240 GSM",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "price": "2 900 сом",
     "priceNum": 2900,
     "status": "In stock",
@@ -25,7 +30,12 @@
     "type": "Oversized tee",
     "desc": "The same signature script on clean white. The everyday statement piece.",
     "fabric": "Premium cotton · 240 GSM",
-    "sizes": ["S", "M", "L", "XL"],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "price": "2 900 сом",
     "priceNum": 2900,
     "status": "In stock",
@@ -44,15 +54,19 @@
     "type": "Oversized tee",
     "desc": "Cherry-blossom artwork with the script mark. Since day one — earn your legacy.",
     "fabric": "Premium cotton · 240 GSM",
-    "sizes": ["S", "M", "L", "XL"],
-    "price": "3 200 сом",
-    "priceNum": 3200,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 800 сом",
+    "priceNum": 2800,
     "status": "Low stock",
     "stock": 5,
     "images": [
-      "/mockup-bloom-hanger-back.jpg",
-      "/product-bloom-front.jpg",
-      "/product-bloom-back.jpg"
+      "/up-1786547792396.png",
+      "/product-bloom-front.jpg"
     ],
     "alt": "White Bloom T-shirt with cherry blossom back print"
   },
@@ -63,13 +77,18 @@
     "type": "Graphic tee",
     "desc": "Bold LEGEND type over a city print. No limits since day one.",
     "fabric": "Premium cotton · 240 GSM",
-    "sizes": ["S", "M", "L", "XL"],
-    "price": "3 400 сом",
-    "priceNum": 3400,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 800 сом",
+    "priceNum": 2800,
     "status": "Last pieces",
     "stock": 3,
     "images": [
-      "/mockup-nolimits-front.jpg",
+      "/up-1786547392098.png",
       "/product-nolimits-front.jpg",
       "/product-nolimits-alt.jpg"
     ],
