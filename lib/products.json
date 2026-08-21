@@ -15,7 +15,7 @@
     "price": "2 500 сом",
     "priceNum": 2500,
     "status": "In stock",
-    "stock": 10,
+    "stock": 9,
     "images": [
       "/mockup-black-hanger-back.jpg",
       "/product-script-black-front.jpg",
@@ -39,7 +39,7 @@
     "price": "2 500 сом",
     "priceNum": 2500,
     "status": "In stock",
-    "stock": 10,
+    "stock": 9,
     "images": [
       "/mockup-white-hanger-back.jpg",
       "/product-script-white-front.jpg",
