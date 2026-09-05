@@ -1,6 +1,28 @@
 [
   {
     "id": "001",
+    "name": "TRUTH TEE BE REAL",
+    "colorway": "Black",
+    "type": "Oversized tee",
+    "desc": "Будь настоящим. Будь собой. Не притворяйся.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 500 сом",
+    "priceNum": 2500,
+    "status": "In stock",
+    "stock": 5,
+    "images": [
+      "/up-1788639163010.png"
+    ],
+    "alt": "TRUTH TEE BE REAL Black"
+  },
+  {
+    "id": "002",
     "name": "    BLOOM LEGACY — Black",
     "colorway": "Черный",
     "type": "Oversized tee",
@@ -23,7 +45,7 @@
     "alt": "    BLOOM LEGACY — Black Черный"
   },
   {
-    "id": "002",
+    "id": "003",
     "name": "LEGACY BLOOM 🌸",
     "colorway": "Белый",
     "type": "Oversized tee",
@@ -46,7 +68,7 @@
     "alt": "LEGACY BLOOM 🌸 Белый"
   },
   {
-    "id": "003",
+    "id": "004",
     "name": "SCRIPT TEE",
     "colorway": "Черный ",
     "type": "Classic tee",
@@ -70,7 +92,7 @@
     "alt": "Black Legend Script oversized T-shirt"
   },
   {
-    "id": "004",
+    "id": "005",
     "name": "SCRIPT TEE",
     "colorway": "White",
     "type": "Classic tee",
@@ -94,7 +116,7 @@
     "alt": "White Legend Script oversized T-shirt"
   },
   {
-    "id": "005",
+    "id": "006",
     "name": "BLOOM TEE",
     "colorway": "White",
     "type": "Oversized tee",
@@ -117,7 +139,7 @@
     "alt": "White Bloom T-shirt with cherry blossom back print"
   },
   {
-    "id": "006",
+    "id": "007",
     "name": "NO LIMITS TEE",
     "colorway": "Black",
     "type": "Graphic tee",
