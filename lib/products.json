@@ -1,6 +1,29 @@
 [
   {
     "id": "001",
+    "name": "LEGACY BLOOM 🌸",
+    "colorway": "Белый",
+    "type": "Oversized tee",
+    "desc": "Символ роста , силы и наследия.\nКаждый путь начинается с первого шага.\nSince Day One.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 700 сом",
+    "priceNum": 2700,
+    "status": "In stock",
+    "stock": 5,
+    "images": [
+      "/up-1788638222301.jpeg",
+      "/up-1788638240340.jpeg"
+    ],
+    "alt": "LEGACY BLOOM 🌸 Белый"
+  },
+  {
+    "id": "002",
     "name": "SCRIPT TEE",
     "colorway": "Black",
     "type": "Classic tee",
@@ -24,7 +47,7 @@
     "alt": "Black Legend Script oversized T-shirt"
   },
   {
-    "id": "002",
+    "id": "003",
     "name": "SCRIPT TEE",
     "colorway": "White",
     "type": "Classic tee",
@@ -48,7 +71,7 @@
     "alt": "White Legend Script oversized T-shirt"
   },
   {
-    "id": "003",
+    "id": "004",
     "name": "BLOOM TEE",
     "colorway": "White",
     "type": "Oversized tee",
@@ -66,13 +89,12 @@
     "stock": 5,
     "images": [
       "/up-1786548154456.jpeg",
-      "/up-1786548210698.jpeg",
-      "/product-bloom-front.jpg"
+      "/up-1786548210698.jpeg"
     ],
     "alt": "White Bloom T-shirt with cherry blossom back print"
   },
   {
-    "id": "004",
+    "id": "005",
     "name": "NO LIMITS TEE",
     "colorway": "Black",
     "type": "Graphic tee",
