@@ -1,6 +1,29 @@
 [
   {
     "id": "001",
+    "name": "    BLOOM LEGACY — Black",
+    "colorway": "Черный",
+    "type": "Oversized tee",
+    "desc": "A symbol of growth, strength and legacy.\nEvery journey begins with a single step.\nSince Day One.\n\nСимвол роста, силы и наследия.\nКаждый путь начинается с первого шага.\nС первого дня.\n\nМатериал 100% -Хлопок \n\n",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 700 сом",
+    "priceNum": 2700,
+    "status": "In stock",
+    "stock": 5,
+    "images": [
+      "/up-1788638574146.jpeg",
+      "/up-1788638589704.jpeg"
+    ],
+    "alt": "    BLOOM LEGACY — Black Черный"
+  },
+  {
+    "id": "002",
     "name": "LEGACY BLOOM 🌸",
     "colorway": "Белый",
     "type": "Oversized tee",
@@ -23,9 +46,9 @@
     "alt": "LEGACY BLOOM 🌸 Белый"
   },
   {
-    "id": "002",
+    "id": "003",
     "name": "SCRIPT TEE",
-    "colorway": "Black",
+    "colorway": "Черный ",
     "type": "Classic tee",
     "desc": "Signature Legend script across the back, small mark on the chest. Heavyweight black.",
     "fabric": "Premium cotton · 240 GSM",
@@ -37,8 +60,8 @@
     ],
     "price": "2 500 сом",
     "priceNum": 2500,
-    "status": "In stock",
-    "stock": 9,
+    "status": "Sold out",
+    "stock": 0,
     "images": [
       "/mockup-black-hanger-back.jpg",
       "/product-script-black-front.jpg",
@@ -47,7 +70,7 @@
     "alt": "Black Legend Script oversized T-shirt"
   },
   {
-    "id": "003",
+    "id": "004",
     "name": "SCRIPT TEE",
     "colorway": "White",
     "type": "Classic tee",
@@ -62,7 +85,7 @@
     "price": "2 500 сом",
     "priceNum": 2500,
     "status": "In stock",
-    "stock": 9,
+    "stock": 2,
     "images": [
       "/mockup-white-hanger-back.jpg",
       "/product-script-white-front.jpg",
@@ -71,7 +94,7 @@
     "alt": "White Legend Script oversized T-shirt"
   },
   {
-    "id": "004",
+    "id": "005",
     "name": "BLOOM TEE",
     "colorway": "White",
     "type": "Oversized tee",
@@ -83,8 +106,8 @@
       "L",
       "XL"
     ],
-    "price": "2 800 сом",
-    "priceNum": 2800,
+    "price": "2 700 сом",
+    "priceNum": 2700,
     "status": "Low stock",
     "stock": 5,
     "images": [
@@ -94,7 +117,7 @@
     "alt": "White Bloom T-shirt with cherry blossom back print"
   },
   {
-    "id": "005",
+    "id": "006",
     "name": "NO LIMITS TEE",
     "colorway": "Black",
     "type": "Graphic tee",
