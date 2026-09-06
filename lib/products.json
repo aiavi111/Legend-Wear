@@ -1,6 +1,29 @@
 [
   {
     "id": "001",
+    "name": "Legend Earn your legacy ",
+    "colorway": "White-Белый",
+    "type": "Oversized tee",
+    "desc": "Описание товара.",
+    "fabric": "Premium cotton · 240 GSM",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "price": "2 500 сом",
+    "priceNum": 2500,
+    "status": "In stock",
+    "stock": 7,
+    "images": [
+      "/up-1788727141357.jpeg",
+      "/up-1788727157630.jpeg"
+    ],
+    "alt": "Legend Earn your legacy  White-Белый"
+  },
+  {
+    "id": "002",
     "name": "SIGNATURE TEE ",
     "colorway": "Black -Черный ",
     "type": "Oversized tee",
@@ -23,7 +46,7 @@
     "alt": "SIGNATURE TEE  Black -Черный "
   },
   {
-    "id": "002",
+    "id": "003",
     "name": "    BE REAL → TRUTH  ",
     "colorway": "Black -Черный",
     "type": "Oversized tee",
@@ -46,7 +69,7 @@
     "alt": "TRUTH TEE BE REAL Black"
   },
   {
-    "id": "003",
+    "id": "004",
     "name": "    BLOOM LEGACY — Black",
     "colorway": "Черный",
     "type": "Oversized tee",
@@ -69,7 +92,7 @@
     "alt": "    BLOOM LEGACY — Black Черный"
   },
   {
-    "id": "004",
+    "id": "005",
     "name": "LEGACY BLOOM ",
     "colorway": "White-Белый",
     "type": "Oversized tee",
@@ -92,7 +115,7 @@
     "alt": "LEGACY BLOOM 🌸 Белый"
   },
   {
-    "id": "005",
+    "id": "006",
     "name": "SCRIPT TEE",
     "colorway": "Черный ",
     "type": "Classic tee",
@@ -116,7 +139,7 @@
     "alt": "Black Legend Script oversized T-shirt"
   },
   {
-    "id": "006",
+    "id": "007",
     "name": "SCRIPT TEE",
     "colorway": "White",
     "type": "Classic tee",
@@ -140,7 +163,7 @@
     "alt": "White Legend Script oversized T-shirt"
   },
   {
-    "id": "007",
+    "id": "008",
     "name": "BLOOM TEE",
     "colorway": "White",
     "type": "Oversized tee",
@@ -163,7 +186,7 @@
     "alt": "White Bloom T-shirt with cherry blossom back print"
   },
   {
-    "id": "008",
+    "id": "009",
     "name": "NO LIMITS TEE",
     "colorway": "Black",
     "type": "Graphic tee",
