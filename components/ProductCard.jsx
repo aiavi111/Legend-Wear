@@ -90,7 +90,6 @@ export default function ProductCard({ p, total, wide = false }) {
           </h3>
           <p className="whitespace-nowrap text-lg font-extrabold tabular-nums">{p.price}</p>
         </div>
-        <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-smoke">{p.type} · {p.fabric}</p>
         <p className="mt-2.5 text-xs leading-relaxed text-smoke">{p.desc}</p>
 
         {/* sizes */}
