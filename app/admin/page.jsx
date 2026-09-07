@@ -151,6 +151,8 @@ export default function AdminPage() {
         id: String(i + 1).padStart(3, '0'),
         priceNum: Number(p.priceNum) || 0,
         price: fmt(p.priceNum),
+        oldPriceNum: p.oldPriceNum !== '' && p.oldPriceNum != null && Number(p.oldPriceNum) > 0
+          ? Number(p.oldPriceNum) : undefined,
         stock: Math.max(0, Number(p.stock) || 0),
         images: p.images.filter(Boolean),
         alt: p.alt || `${p.name} ${p.colorway}`,
@@ -585,6 +587,10 @@ export default function AdminPage() {
                         <div>
                           <label className={label}>Цена (сом)</label>
                           <input className={input} type="number" value={p.priceNum} onChange={(e) => update(i, 'priceNum', e.target.value)} />
+                        </div>
+                        <div>
+                          <label className={label}>Старая цена (для скидки, необязательно)</label>
+                          <input className={input} type="number" placeholder="напр. 2900" value={p.oldPriceNum ?? ''} onChange={(e) => update(i, 'oldPriceNum', e.target.value)} />
                         </div>
                         <div>
                           <label className={label}>Остаток (шт.)</label>

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useCart } from '@/components/CartContext';
+import { useCart, fmt } from '@/components/CartContext';
 import { useLang } from '@/lib/i18n';
 
 export default function ProductCard({ p, total, wide = false }) {
@@ -13,6 +13,7 @@ export default function ProductCard({ p, total, wide = false }) {
   const faved = favs?.includes(p.id);
   const stock = typeof p.stock === 'number' ? p.stock : null;
   const soldOut = p.status === 'Sold out' || stock === 0;
+  const hasDiscount = Number(p.oldPriceNum) > Number(p.priceNum);
 
   const onAdd = () => {
     if (soldOut) return;
@@ -88,7 +89,12 @@ export default function ProductCard({ p, total, wide = false }) {
           <h3 className="text-xl font-extrabold uppercase tracking-[-0.01em] sm:text-2xl">
             {p.name} <span className="font-serif font-normal normal-case italic tracking-normal">{p.colorway}</span>
           </h3>
-          <p className="whitespace-nowrap text-lg font-extrabold tabular-nums">{p.price}</p>
+          <div className="flex shrink-0 items-baseline gap-2 whitespace-nowrap">
+            {hasDiscount && (
+              <span className="text-xs text-smoke line-through tabular-nums">{fmt(Number(p.oldPriceNum))}</span>
+            )}
+            <p className={`text-lg font-extrabold tabular-nums ${hasDiscount ? 'text-ember' : ''}`}>{p.price}</p>
+          </div>
         </div>
         <p className="mt-2.5 text-xs leading-relaxed text-smoke">{p.desc}</p>
 
