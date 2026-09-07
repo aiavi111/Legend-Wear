@@ -99,9 +99,9 @@ export default function Hero() {
       {/* mobile — full-bleed campaign photo (Nike style) */}
       <div className="absolute inset-0 lg:hidden" aria-hidden="true">
         <img
-          src="/campaign-mobile.jpg"
+          src="/hero-mobile-wall.jpg"
           alt=""
-          className="hero-photo h-full w-full scale-[1.08] object-cover object-[50%_32%]"
+          className="hero-photo h-full w-full scale-[1.08] object-cover object-[50%_20%]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-ink/25" />
       </div>
