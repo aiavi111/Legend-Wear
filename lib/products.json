@@ -12,8 +12,8 @@
       "L",
       "XL"
     ],
-    "price": "2 500 сом",
-    "priceNum": 2500,
+    "price": "2 200 сом",
+    "priceNum": 2200,
     "status": "In stock",
     "stock": 8,
     "images": [
@@ -35,8 +35,8 @@
       "L",
       "XL"
     ],
-    "price": "2 500 сом",
-    "priceNum": 2500,
+    "price": "2 200 сом",
+    "priceNum": 2200,
     "status": "In stock",
     "stock": 7,
     "images": [
@@ -104,8 +104,8 @@
       "L",
       "XL"
     ],
-    "price": "2 700 сом",
-    "priceNum": 2700,
+    "price": "2 600 сом",
+    "priceNum": 2600,
     "status": "In stock",
     "stock": 5,
     "images": [
@@ -127,8 +127,8 @@
       "L",
       "XL"
     ],
-    "price": "2 700 сом",
-    "priceNum": 2700,
+    "price": "2 600 сом",
+    "priceNum": 2600,
     "status": "In stock",
     "stock": 5,
     "images": [
@@ -198,8 +198,8 @@
       "L",
       "XL"
     ],
-    "price": "2 700 сом",
-    "priceNum": 2700,
+    "price": "2 600 сом",
+    "priceNum": 2600,
     "status": "Low stock",
     "stock": 5,
     "images": [
@@ -221,10 +221,10 @@
       "L",
       "XL"
     ],
-    "price": "2 800 сом",
-    "priceNum": 2800,
+    "price": "2 500 сом",
+    "priceNum": 2500,
     "status": "Last pieces",
-    "stock": 3,
+    "stock": 1,
     "images": [
       "/up-1786547392098.png",
       "/product-nolimits-front.jpg",
