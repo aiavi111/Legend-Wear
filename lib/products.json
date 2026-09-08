@@ -45,7 +45,7 @@
       "/up-1788727157630.jpeg"
     ],
     "alt": "Legend Earn your legacy  White-Белый",
-    "oldPriceNum": 2900
+    "oldPriceNum": 2500
   },
   {
     "id": "003",
@@ -68,8 +68,7 @@
       "/up-1788639346876.jpeg",
       "/up-1788639361344.jpeg"
     ],
-    "alt": "SIGNATURE TEE  Black -Черный ",
-    "oldPriceNum": 3000
+    "alt": "SIGNATURE TEE  Black -Черный "
   },
   {
     "id": "004",
@@ -113,7 +112,10 @@
     "stock": 5,
     "images": [
       "/up-1788638574146.jpeg",
-      "/up-1788638589704.jpeg"
+      "/up-1788638589704.jpeg",
+      "/up-1788866673725.jpeg",
+      "/up-1788866717252.jpeg",
+      "/up-1788866753708.jpeg"
     ],
     "alt": "    BLOOM LEGACY — Black Черный"
   },
@@ -217,8 +219,8 @@
     "sizes": [
       "S"
     ],
-    "price": "2 500 сом",
-    "priceNum": 2500,
+    "price": "2 200 сом",
+    "priceNum": 2200,
     "status": "Last pieces",
     "stock": 1,
     "images": [
@@ -226,6 +228,7 @@
       "/product-nolimits-front.jpg",
       "/product-nolimits-alt.jpg"
     ],
-    "alt": "Black No Limits graphic T-shirt with city print"
+    "alt": "Black No Limits graphic T-shirt with city print",
+    "oldPriceNum": 2700
   }
 ]
