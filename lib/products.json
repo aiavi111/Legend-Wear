@@ -14,7 +14,7 @@
     ],
     "price": "2 200 сом",
     "priceNum": 2200,
-    "status": "In stock",
+    "status": "Low stock",
     "stock": 8,
     "images": [
       "/up-1788727251421.jpeg",
@@ -38,14 +38,14 @@
     ],
     "price": "2 200 сом",
     "priceNum": 2200,
-    "status": "In stock",
+    "status": "Low stock",
     "stock": 7,
     "images": [
       "/up-1788727141357.jpeg",
       "/up-1788727157630.jpeg"
     ],
     "alt": "Legend Earn your legacy  White-Белый",
-    "oldPriceNum": 2500
+    "oldPriceNum": 2900
   },
   {
     "id": "003",
@@ -68,7 +68,8 @@
       "/up-1788639346876.jpeg",
       "/up-1788639361344.jpeg"
     ],
-    "alt": "SIGNATURE TEE  Black -Черный "
+    "alt": "SIGNATURE TEE  Black -Черный ",
+    "oldPriceNum": 3000
   },
   {
     "id": "004",
