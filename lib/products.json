@@ -20,7 +20,8 @@
       "/up-1788727251421.jpeg",
       "/up-1788727265262.jpeg"
     ],
-    "alt": "Earn Your Legacy  Белый-White "
+    "alt": "Earn Your Legacy  Белый-White ",
+    "oldPriceNum": 2500
   },
   {
     "id": "002",
@@ -43,7 +44,8 @@
       "/up-1788727141357.jpeg",
       "/up-1788727157630.jpeg"
     ],
-    "alt": "Legend Earn your legacy  White-Белый"
+    "alt": "Legend Earn your legacy  White-Белый",
+    "oldPriceNum": 2500
   },
   {
     "id": "003",
@@ -96,7 +98,7 @@
     "name": "    BLOOM LEGACY — Black",
     "colorway": "Черный",
     "type": "Oversized tee",
-    "desc": "A symbol of growth, strength and legacy.\nEvery journey begins with a single step.\nSince Day One.\n\nСимвол роста, силы и наследия.\nКаждый путь начинается с первого шага.\nС первого дня.\n\nМатериал 100% -Хлопок \n\n",
+    "desc": "Символ роста, силы и наследия.\nКаждый путь начинается с первого шага.\nС первого дня.\n\nМатериал 100% -Хлопок \n\nA symbol of growth, strength and legacy.\nEvery journey begins with a single step.\nSince Day One.\n\n",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
       "S",
@@ -122,7 +124,6 @@
     "desc": "Символ роста , силы и наследия.\nКаждый путь начинается с первого шага.\nSince Day One.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
       "M",
       "L",
       "XL"
@@ -130,7 +131,7 @@
     "price": "2 600 сом",
     "priceNum": 2600,
     "status": "In stock",
-    "stock": 5,
+    "stock": 4,
     "images": [
       "/up-1788638222301.jpeg",
       "/up-1788638240340.jpeg"
@@ -169,10 +170,8 @@
     "desc": "The same signature script on clean white. The everyday statement piece.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
       "M",
-      "L",
-      "XL"
+      "L"
     ],
     "price": "2 500 сом",
     "priceNum": 2500,
@@ -193,7 +192,6 @@
     "desc": "Cherry-blossom artwork with the script mark. Since day one — earn your legacy.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
       "M",
       "L",
       "XL"
@@ -201,7 +199,7 @@
     "price": "2 600 сом",
     "priceNum": 2600,
     "status": "Low stock",
-    "stock": 5,
+    "stock": 4,
     "images": [
       "/up-1786548154456.jpeg",
       "/up-1786548210698.jpeg"
@@ -216,10 +214,7 @@
     "desc": "Bold LEGEND type over a city print. No limits since day one.",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "S"
     ],
     "price": "2 500 сом",
     "priceNum": 2500,
