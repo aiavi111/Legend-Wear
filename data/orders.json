@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 1788899825705,
+    "ts": "2026-09-08T20:37:05.705Z",
+    "status": "new",
+    "name": "Улан",
+    "phone": "996755511531",
+    "address": "Успнбаева200",
+    "comment": "",
+    "receipt": "",
+    "items": [
+      {
+        "id": "009",
+        "name": "BLOOM TEE",
+        "colorway": "White",
+        "size": "M",
+        "qty": 1,
+        "price": 2600
+      }
+    ],
+    "total": 2600
+  }
+]
