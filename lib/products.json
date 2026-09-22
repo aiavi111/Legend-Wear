@@ -15,7 +15,7 @@
     "price": "2 200 сом",
     "priceNum": 2200,
     "status": "Low stock",
-    "stock": 8,
+    "stock": 5,
     "images": [
       "/up-1788727251421.jpeg",
       "/up-1788727265262.jpeg"
@@ -39,7 +39,7 @@
     "price": "2 200 сом",
     "priceNum": 2200,
     "status": "Low stock",
-    "stock": 7,
+    "stock": 5,
     "images": [
       "/up-1788727141357.jpeg",
       "/up-1788727157630.jpeg"
@@ -55,15 +55,13 @@
     "desc": "Символ идентичности и собственного пути.\nФирменная эмблема LEGEND — знак характера, дисциплины и наследия.\nС первого дня.\n\nМатериал 100%-хлопок ",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
       "M",
-      "L",
       "XL"
     ],
     "price": "2 500 сом",
     "priceNum": 2500,
     "status": "In stock",
-    "stock": 5,
+    "stock": 3,
     "images": [
       "/up-1788639346876.jpeg",
       "/up-1788639361344.jpeg"
@@ -101,7 +99,6 @@
     "desc": "Символ роста, силы и наследия.\nКаждый путь начинается с первого шага.\nС первого дня.\n\nМатериал 100% -Хлопок \n\nA symbol of growth, strength and legacy.\nEvery journey begins with a single step.\nSince Day One.\n\n",
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
-      "S",
       "M",
       "L",
       "XL"
@@ -109,7 +106,7 @@
     "price": "2 600 сом",
     "priceNum": 2600,
     "status": "In stock",
-    "stock": 5,
+    "stock": 3,
     "images": [
       "/up-1788638574146.jpeg",
       "/up-1788638589704.jpeg",
@@ -128,13 +125,12 @@
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
       "M",
-      "L",
       "XL"
     ],
     "price": "2 600 сом",
     "priceNum": 2600,
     "status": "In stock",
-    "stock": 4,
+    "stock": 3,
     "images": [
       "/up-1788638222301.jpeg",
       "/up-1788638240340.jpeg"
@@ -196,13 +192,12 @@
     "fabric": "Premium cotton · 240 GSM",
     "sizes": [
       "M",
-      "L",
       "XL"
     ],
     "price": "2 600 сом",
     "priceNum": 2600,
     "status": "Low stock",
-    "stock": 4,
+    "stock": 3,
     "images": [
       "/up-1786548154456.jpeg",
       "/up-1786548210698.jpeg"
