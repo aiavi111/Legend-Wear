@@ -33,13 +33,12 @@
     "sizes": [
       "S",
       "M",
-      "L",
       "XL"
     ],
     "price": "2 200 сом",
     "priceNum": 2200,
     "status": "Low stock",
-    "stock": 5,
+    "stock": 4,
     "images": [
       "/up-1788727141357.jpeg",
       "/up-1788727157630.jpeg"
