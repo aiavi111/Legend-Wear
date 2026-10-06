@@ -183,27 +183,6 @@
   },
   {
     "id": "009",
-    "name": "BLOOM TEE",
-    "colorway": "White",
-    "type": "Oversized tee",
-    "desc": "Cherry-blossom artwork with the script mark. Since day one — earn your legacy.",
-    "fabric": "Premium cotton · 240 GSM",
-    "sizes": [
-      "M",
-      "XL"
-    ],
-    "price": "2 600 сом",
-    "priceNum": 2600,
-    "status": "Low stock",
-    "stock": 3,
-    "images": [
-      "/up-1786548154456.jpeg",
-      "/up-1786548210698.jpeg"
-    ],
-    "alt": "White Bloom T-shirt with cherry blossom back print"
-  },
-  {
-    "id": "010",
     "name": "NO LIMITS TEE",
     "colorway": "Black",
     "type": "Graphic tee",
